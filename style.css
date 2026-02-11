@@ -1,1 +1,29 @@
-html,body{}
+html,body{
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: blue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.wrapper{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content p {
+    font-size: 150px;
+    display: block;
+    margin: 0 auto;
+}
+
+h2 {
+    text-align: center;
+    margin: 20px 0;
+}
